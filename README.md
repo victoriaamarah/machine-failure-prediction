@@ -29,6 +29,13 @@ The dataset used is the **AI4I 2020 Predictive Maintenance Dataset**, available 
 
 ---
 
+EDA
+
+
+![histogram](_EDA/histogram.png)
+
+---
+
 ## Results
 - Best model achieved an **accuracy of XX%** and an **F1-Score of YY** in predicting machine failures.
 - Identified key features influencing failure likelihood:
