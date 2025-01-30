@@ -31,8 +31,7 @@ The dataset used is the **AI4I 2020 Predictive Maintenance Dataset**, available 
 
 EDA
 
-
-![histogram](_EDA/histogram.png)
+HISTOGRAM: ![histogram](_EDA/histogram.png)
 
 ---
 
