@@ -31,7 +31,7 @@ The dataset used is the **AI4I 2020 Predictive Maintenance Dataset**, available 
 
 ## EDA
 
-<img src="_EDA/histogram.png" width="400"> <img src="_EDA/Quality_Types.png" width="400"> <img src="_EDA/failure_types.png" width="400"> <img src="_EDA/Correlation_Heatmap.png" width="400">
+<img src="_EDA/histogram.png" width="400"> <img src="_EDA/Correlation_Heatmap.png" width="400"> <img src="_EDA/failure_types.png" width="400"> <img src="_EDA/Quality_Types.png" width="400">
 
 ---
 
