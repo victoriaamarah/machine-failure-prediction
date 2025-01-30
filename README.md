@@ -25,8 +25,7 @@ The dataset used is the **AI4I 2020 Predictive Maintenance Dataset**, available 
 - **Target Variables**:
   - **Failure Type** (No Failure, Heat Dissipation, Power Failure, Overstrain, Tool Wear, Random Failures).
   - **Machine Failure** (binary classification).
-
-**Dataset Size**: 10,000 samples, 8 features, and 6 labels.
+- **Dataset Size**: 10,000 samples, 8 features, and 6 labels.
 
 ---
 
