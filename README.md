@@ -36,7 +36,7 @@ The dataset used is the **AI4I 2020 Predictive Maintenance Dataset**, available 
 ---
 
 ## Results
-The Decision Tree model used provided a strong balance between interpretability and performance, achieving an accuracy of 89% and an F1-Score of 0.85 in predicting machine failures.
+The Decision Tree model used achieved an accuracy of 89% and an F1-Score of 0.85 in predicting machine failures.
 
 **The Key features influencing failures include**:
 - **Tool wear time:** had the highest correlation with failure events.
