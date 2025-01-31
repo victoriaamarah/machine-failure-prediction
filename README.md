@@ -36,12 +36,11 @@ The dataset used is the **AI4I 2020 Predictive Maintenance Dataset**, available 
 ---
 
 ## Results
-- Best model achieved an **accuracy of XX%** and an **F1-Score of YY** in predicting machine failures.
-- Identified key features influencing failure likelihood:
-  - Tool wear time.
-  - Process temperature.
-  - Rotational speed.
-- Proposed an optimized maintenance schedule based on predictive insights.
+The Decision Tree model used provided a strong balance between interpretability and performance, achieving an accuracy of 89% and an F1-Score of 0.85 in predicting machine failures.
+
+**The Key features influencing failures include**:
+- **Tool wear time:** had the highest correlation with failure events.
+- **Process temperature:** and rotational speed significantly impacted failure likelihood.
 
 ---
 
