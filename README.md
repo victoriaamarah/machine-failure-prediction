@@ -43,7 +43,7 @@ The Decision Tree model used achieved an accuracy of 89% and an F1-Score of 0.85
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/predictive-maintenance-milling.git
+   git clone https://github.com/yourusername/machine-failure-prediction.git
    ```
 
 2. Install dependencies:
@@ -60,5 +60,3 @@ The Decision Tree model used achieved an accuracy of 89% and an F1-Score of 0.85
    ```bash
    streamlit run app.py
    ```
-
----
