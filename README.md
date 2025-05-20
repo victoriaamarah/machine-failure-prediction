@@ -1,10 +1,18 @@
 # Predictive Maintenance for Milling Machines
 
-## Project Description
-This project focuses on predicting the need for maintenance in milling machines to minimize downtime and optimize operations. By analyzing the "AI4I 2020 Predictive Maintenance Dataset" from the UCI Machine Learning Repository, we build machine learning models that can predict potential machine failures, identify critical factors influencing maintenance needs, and recommend actions to prevent unexpected breakdowns.
+## Project Background
 
-## Problem Statement
-Milling machines are essential in many industries, but unexpected failures can lead to costly delays and operational inefficiencies. Predictive maintenance offers a proactive approach by forecasting failures before they occur, enabling timely interventions and reducing downtime. The goal is to develop a predictive model to classify and predict potential failures (e.g., tool wear, overstrain, heat dissipation issues) in milling machines based on real-world sensor data.
+Predictive maintenance has become a critical tool for avoiding unexpected machine failures and improving operational reliability. In this project, we apply machine learning techniques to assess the health of milling machines and predict potential failures before they happen.
+
+This project uses the **AI4I 2020 Predictive Maintenance Dataset**, a synthetic dataset designed to mirror real-world industrial machine behavior. It includes sensor readings and operational settings from milling machines under varied conditions. By training machine learning models on this dataset, the project aims to classify failure types (e.g., **tool wear**, **overstrain**, **heat dissipation issues**) and forecast potential malfunctions
+
+- **Key Analysis Areas:**
+
+- **Failure Type Classification:** Predict whether an equipment failure will occur and identify which type (e.g., heat-related, mechanical stress).
+    
+- **Sensor Pattern Analysis:** Understand which machine sensors (torque, tool wear, rotational speed) contribute most to failure predictions.
+    
+- **Operational Risk Profiling:** Analyze how operating conditions (load, power, usage hours) correlate with failure likelihood.
 
 ## Dataset
 The dataset used is the **AI4I 2020 Predictive Maintenance Dataset**, available on the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset).
