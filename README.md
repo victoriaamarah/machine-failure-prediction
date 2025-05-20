@@ -6,7 +6,7 @@ Predictive maintenance has become a critical tool for avoiding unexpected machin
 
 This project uses the **AI4I 2020 Predictive Maintenance Dataset**, a synthetic dataset designed to mirror real-world industrial machine behavior. It includes sensor readings and operational settings from milling machines under varied conditions. By training machine learning models on this dataset, the project aims to classify failure types (e.g., **tool wear**, **overstrain**, **heat dissipation issues**) and forecast potential malfunctions
 
-- **Key Analysis Areas:**
+**Key Analysis Areas:**
 
 - **Failure Type Classification:** Predict whether an equipment failure will occur and identify which type (e.g., heat-related, mechanical stress).
     
@@ -14,22 +14,28 @@ This project uses the **AI4I 2020 Predictive Maintenance Dataset**, a synthetic 
     
 - **Operational Risk Profiling:** Analyze how operating conditions (load, power, usage hours) correlate with failure likelihood.
 
-## Dataset
-The dataset used is the **AI4I 2020 Predictive Maintenance Dataset**, available on the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset).
+## Data Structure
+The dataset used is the **AI4I 2020 Predictive Maintenance Dataset**, available on the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset). **Dataset Size:** 10,000 records · 8 input features · 6 categorical failure labels
 
-**Dataset Features**:
-- **UDI**: Unique identifier for each record.
-- **Product ID**: Identifier of the product being processed.
-- **Type**: Machine type (High, Medium, Low).
-- **Air temperature [°C]**: Environmental condition.
-- **Process temperature [°C]**: Temperature during machining.
-- **Rotational speed [rpm]**: Spindle speed.
-- **Torque [Nm]**: Torque applied during machining.
-- **Tool wear [min]**: Cumulative tool usage.
-- **Target Variables**:
-  - **Failure Type** (No Failure, Heat Dissipation, Power Failure, Overstrain, Tool Wear, Random Failures).
-  - **Machine Failure** (binary classification).
-- **Dataset Size**: 10,000 samples, 8 features, and 6 labels.
+#### Data Dictionary
+
+|Column Name|Type|Description|
+|---|---|---|
+|`UDI`|Integer|Unique identifier for each data record|
+|`Product ID`|String|Identifier for the specific product being processed|
+|`Type`|Category|Type of machine (`Low`, `Medium`, `High`)|
+|`Air temperature [°C]`|Float|Ambient air temperature in degrees Celsius|
+|`Process temperature [°C]`|Float|Internal temperature during machining|
+|`Rotational speed [rpm]`|Integer|Spindle rotation speed in revolutions per minute|
+|`Torque [Nm]`|Float|Torque applied to the spindle, measured in Newton-meters|
+|`Tool wear [min]`|Integer|Total duration the tool has been used, measured in minutes|
+
+##### Target Variables
+
+|Column Name|Type|Description|
+|---|---|---|
+|`Failure Type`|Category|Type of failure event (`No Failure`, `Heat Dissipation`, `Power Failure`, `Overstrain`, `Tool Wear`, `Random Failures`)|
+|`Machine Failure`|Boolean|Indicates whether a machine failure occurred (`1` = Failure, `0` = No Failure)|
 
 ---
 
