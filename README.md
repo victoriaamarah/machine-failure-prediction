@@ -39,9 +39,28 @@ The dataset used is the **AI4I 2020 Predictive Maintenance Dataset**, available 
 
 ---
 
-## EDA
+## Exploratory Data Analysis - EDA
 
-<img src="_EDA/histogram.png" width="400"> <img src="_EDA/failure_types.png" width="400"> <img src="_EDA/Correlation_Heatmap.png" width="400"> <img src="_EDA/Quality_Types.png" width="400">
+Our EDA on the **AI4I 2020 Predictive Maintenance** dataset (10,000 synthetic records, 14 features) surfaced several core insights that shaped our modeling strategy:
+
+<img src="_EDA/failure_types.png" width="400"> <img src="_EDA/Quality_Types.png" width="400">
+
+- **Data Distribution:**  
+    Histograms of key process variables (machine Type, Tool Wear, Torque, Air & Process Temperatures, Rotational Speed) revealed notable skewness and concentration in specific ranges—indicating that certain operating conditions are far more common than others.
+    
+- **Failure Frequency:**  
+    Only **348 out of 10,000 runs (3.48%)** resulted in a machine failure, underscoring a significant class imbalance that will need to be addressed in model training.
+    
+- **Failure Modes Breakdown:**  
+    Among the five failure types, **Heat Dissipation Failures (HDF)** were most prevalent, followed by **Overstrain Failures (OSF)** and **Power Failures (PWF)**. These three modes together accounted for the vast majority of all failure events.
+    
+- **Machine Quality Impact:**  
+    The dataset splits machines into Low (60%), Medium (30%), and High (10%) quality tiers. Failures disproportionately occurred in Low‑quality machines (44.3% of failures) compared to Medium (29.6%) and High (26.2%), suggesting a clear link between build quality and breakdown risk.
+    
+- **Feature Correlations:**  
+    A correlation heatmap showed **strong positive relationships** between Tool Wear (ρ≈0.72) and Rotational Speed (ρ≈0.45) with the failure label, while temperatures and machine type exhibited weak or negligible correlations (|ρ|<0.2). 
+
+<img src="_EDA/Correlation_Heatmap.png" width="400"> <img src="_EDA/histogram.png" width="400"> 
 
 ---
 
