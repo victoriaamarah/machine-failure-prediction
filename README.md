@@ -17,25 +17,7 @@ This project uses the **AI4I 2020 Predictive Maintenance Dataset**, a synthetic 
 ## Data Structure
 The dataset used is the **AI4I 2020 Predictive Maintenance Dataset**, available on the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset). **Dataset Size:** 10,000 records · 8 input features · 6 categorical failure labels
 
-#### Data Dictionary
-
-|Column Name|Type|Description|
-|---|---|---|
-|`UDI`|Integer|Unique identifier for each data record|
-|`Product ID`|String|Identifier for the specific product being processed|
-|`Type`|Category|Type of machine (`Low`, `Medium`, `High`)|
-|`Air temperature [°C]`|Float|Ambient air temperature in degrees Celsius|
-|`Process temperature [°C]`|Float|Internal temperature during machining|
-|`Rotational speed [rpm]`|Integer|Spindle rotation speed in revolutions per minute|
-|`Torque [Nm]`|Float|Torque applied to the spindle, measured in Newton-meters|
-|`Tool wear [min]`|Integer|Total duration the tool has been used, measured in minutes|
-
-##### Target Variables
-
-|Column Name|Type|Description|
-|---|---|---|
-|`Failure Type`|Category|Type of failure event (`No Failure`, `Heat Dissipation`, `Power Failure`, `Overstrain`, `Tool Wear`, `Random Failures`)|
-|`Machine Failure`|Boolean|Indicates whether a machine failure occurred (`1` = Failure, `0` = No Failure)|
+<img src="_EDA/ML PRED ERD.drawio" width="400">
 
 ---
 
@@ -43,7 +25,7 @@ The dataset used is the **AI4I 2020 Predictive Maintenance Dataset**, available 
 
 Our EDA on the **AI4I 2020 Predictive Maintenance** dataset (10,000 synthetic records, 14 features) surfaced several core insights that shaped our modeling strategy:
 
-<img src="_EDA/failure_types.png" width="400"> <img src="_EDA/Quality_Types.png" width="400">
+<img src="_EDA/failure_types.png" width="500"> <img src="_EDA/Quality_Types.png" width="400">
 
 - **Data Distribution:**  
     Histograms of key process variables (machine Type, Tool Wear, Torque, Air & Process Temperatures, Rotational Speed) revealed notable skewness and concentration in specific ranges—indicating that certain operating conditions are far more common than others.
