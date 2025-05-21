@@ -17,7 +17,7 @@ This project uses the **AI4I 2020 Predictive Maintenance Dataset**, a synthetic 
 ## Data Structure
 The dataset used is the **AI4I 2020 Predictive Maintenance Dataset**, available on the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset). **Dataset Size:** 10,000 records · 8 input features · 6 categorical failure labels
 
-![data_structure](_EDA/data_structure.png)
+<img src="_EDA/[data_structure.png" width="500">
 
 ---
 
@@ -25,7 +25,7 @@ The dataset used is the **AI4I 2020 Predictive Maintenance Dataset**, available 
 
 Our EDA on the **AI4I 2020 Predictive Maintenance** dataset (10,000 synthetic records, 14 features) surfaced several core insights that shaped our modeling strategy:
 
-<img src="_EDA/failure_types.png" width="500"> <img src="_EDA/Quality_Types.png" width="400">
+<img src="_EDA/failure_types.png" width="500"> <img src="_EDA/Quality_Types.png" width="300">
 
 - **Data Distribution:**  
     Histograms of key process variables (machine Type, Tool Wear, Torque, Air & Process Temperatures, Rotational Speed) revealed notable skewness and concentration in specific ranges—indicating that certain operating conditions are far more common than others.
