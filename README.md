@@ -17,7 +17,7 @@ This project uses the **AI4I 2020 Predictive Maintenance Dataset**, a synthetic 
 ## Data Structure
 The dataset used is the **AI4I 2020 Predictive Maintenance Dataset**, available on the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset). **Dataset Size:** 10,000 records · 8 input features · 6 categorical failure labels
 
-<img src="_EDA/data_structure.png" width="400">
+![data_structure](_EDA/data_structure.png)
 
 ---
 
